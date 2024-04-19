@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1 class="marimari">
+                <img src="fotinha-removebg-preview.png" class="estudantes" alt="estudantes">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <div class="textfield">
+                    <input type="email" name="email" id="email" placeholder="Número de Telefone/Nome de Usuário/Email">
+                </div>
+                <div class="textfield">
+                    <label for="senha"></label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
+                    <a href="senha.html">Esqueci Minha Senha.</a>
+                </div>
+                <button class="btn-login" type="submit" onclick="validarForm()">Login</button>
+
+                <!-- Seção para configuração da opção de cadastro -->
+                <div class="cadastrarse">
+                    Não tem Cadastro? <a id="cad" href="cadastro.html">Cadastre-se</a>
+                </div>
+ <!--ir para uma pagina escrito login concluido com sucesso-->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
